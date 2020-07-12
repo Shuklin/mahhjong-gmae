@@ -1,0 +1,3 @@
+<div class="card" [ngClass]="'card-'+card.type" (click)="clickCard(card)">
+  {{card.type === "hidden" ? '' : card.value}}
+</div>

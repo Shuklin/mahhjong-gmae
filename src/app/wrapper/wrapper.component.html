@@ -1,0 +1,4 @@
+<h1 class="mahjong-header">Mahjong-like game</h1>
+<div class="mahjong-grid" [ngClass]="{'click-disabled':isClickDisabled}">
+  <app-card *ngFor="let card of cardsNumList" [card]="card" (onSelectCard)="selectCard($event)"></app-card>
+</div>

@@ -1,0 +1,48 @@
+.card {
+  width: 32px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all ease .3s;
+
+  line-height: 40px;
+  text-align: center;
+  color: #666666;
+
+  cursor: default;
+  font-family: Arial;
+}
+
+.card:hover {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.36), 0 1px 2px rgba(0,0,0,0.48);
+}
+
+.card-hidden {
+  color: white;
+}
+
+.card-hidden:hover {
+  cursor: pointer;
+}
+
+.card-preview {
+}
+
+.card-selected {
+  color: #555555;
+  border-color: #555555;
+}
+
+.card-solved {
+  color: #aaaaaa;
+  border-color: #aaaaaa;
+}
+
+.card-incorrect {
+  color: #ee0000;
+  border-color: #ee0000;
+  box-shadow: 0 1px 3px rgba(200,0,0,0.12), 0 1px 2px rgba(200,0,0,0.24);
+
+}
